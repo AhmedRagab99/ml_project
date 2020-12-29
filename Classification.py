@@ -117,7 +117,7 @@ def PolyinomialKernalSVM():
     print('Accuracy for Polonomial :')
     print(model1.score(X_test, y_test))
     print('Error:')
-    print(mean_squared_error(y_test, predict))
+    # print(mean_squared_error(y_test, predict))
 
 
 def GuasianKernalSVM():
